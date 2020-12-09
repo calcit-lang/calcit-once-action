@@ -2,4 +2,4 @@
 
 echo "Calcit runner provided"
 
-cr_once
+env=ci cr_once

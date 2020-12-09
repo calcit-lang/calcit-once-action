@@ -4,6 +4,8 @@ Calcit once docker action
 runs `cr_once` directly at working directory.
 
 ```bash
+test -f ci-deps.sh && bash ci-deps.sh # for loading deps from GitHub
+
 env=ci cr_once
 ```
 

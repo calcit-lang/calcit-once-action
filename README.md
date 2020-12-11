@@ -1,6 +1,8 @@
 Calcit once docker action
 ----
 
+> Notice: this action is experimental. Current working version of calcit project is using a script like https://github.com/calcit-lang/calcit-workflow/blob/master/.github/workflows/tests.yaml#L12 .
+
 runs `cr_once` directly at working directory.
 
 ```bash
